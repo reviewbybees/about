@@ -11,6 +11,11 @@ Our current internal process requires that **before we seek to get a change merg
 
 In addition, if there are any :bug: comments from CloudBees employees then we are not allowed to ask for the change to be merged until the issue identified has been resolved.
 
+(Note that :bee: or :bug: must be in *general comments*, not *line comments*.
+You should add a :bug: to mean that you are opposed to the PR at that point.
+This remains in effect until you supersede it with a :bee:,
+regardless of whether there have been intervening commits.)
+
 However, that does not mean that you, as a maintainer of your open source project need to pay any attention to our processes:
 
 * If you see a change that you think should be merged, and you want to merge it now, it's your project, so it's your call
