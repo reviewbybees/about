@@ -2,7 +2,7 @@
 
 CloudBees, Inc. has some internal code review processes. One of the requirements is that we get changes signed off by other CloudBees employees.
 
-To help us identify the Pull requests in GitHub that we need to review, we typically just mention `@reviewbybees` in the pull request. That lets us see the review requests that we need to review using [this handy query](https://github.com/pulls?q=is%3Aopen+is%3Apr+mentions%3Areviewbybees+NOT+wip+in%3Atitle+sort%3Aupdated-desc).
+To help us identify the Pull requests in GitHub that we need to review, we typically just mention `@reviewbybees` in the pull request. That lets us see the review requests that we need to review using [this handy query](https://github.com/pulls?q=is%3Aopen+is%3Apr+mentions%3Areviewbybees+NOT+wip+in%3Atitle+-label%3Awork-in-progress+sort%3Aupdated-desc).
 
 Our current internal process requires that **before we seek to get a change merged** we must have either:
 
